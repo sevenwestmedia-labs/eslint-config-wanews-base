@@ -1,6 +1,6 @@
 # WANews eslint config
 
-Configured for typescript + react
+Configured for typescript
 
 ## Config
 
@@ -9,9 +9,7 @@ Configured for typescript + react
 ```json
 "eslint.validate": [
     "javascript",
-    "javascriptreact",
-    { "language": "typescript", "autoFix": true },
-    { "language": "typescriptreact", "autoFix": true }
+    { "language": "typescript", "autoFix": true }
 ]
 ```
 
@@ -19,7 +17,7 @@ Configured for typescript + react
 
 ```json
 {
-  "extends": ["wanews"]
+  "extends": ["wanews-base"]
 }
 ```
 
