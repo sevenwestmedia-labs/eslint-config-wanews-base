@@ -4,6 +4,8 @@ node_js:
 cache: yarn
 notifications:
   email: false
+script:
+  - echo 'No build step'
 jobs:
   include:
   - stage: release
