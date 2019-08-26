@@ -27,3 +27,9 @@ Configured for typescript
 ```
 dist
 ```
+
+### package.json
+
+```
+"lint": "eslint --ext .js,.ts ."
+```
